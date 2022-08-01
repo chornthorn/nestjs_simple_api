@@ -10,7 +10,6 @@ import { RolesGuard } from '@app/auth/guards/roles.guard';
 import { AccessGuard } from '@app/auth/guards/access.guard';
 import { TaskModule } from './task/task.module';
 import { CategoryModule } from './category/category.module';
-import { ProductModule } from './product/product.module';
 
 @Module({
   imports: [
@@ -30,7 +29,6 @@ import { ProductModule } from './product/product.module';
     UsersModule,
     TaskModule,
     CategoryModule,
-    ProductModule,
   ],
   providers: [
     {
